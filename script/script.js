@@ -229,7 +229,7 @@ $(".lonchCont").droppable({
           if ($ (ui.draggable).hasClass( "dañinos") ) {
            // window.alert("Cuidado. alimento dañinos");
             $("#dañinos").append(ui.draggable)
-           
+            contadorLonchera--
           
            
            malo.play();
